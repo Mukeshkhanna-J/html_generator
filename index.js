@@ -12,9 +12,6 @@ app.get("/",(req,res)=>{
     res.render("index.ejs");
 })
 
-// Make sure to include these imports:
-// import { GoogleGenerativeAI } from "@google/generative-ai";
-
 
 app.post("/generate",async(req,res)=>{
 
